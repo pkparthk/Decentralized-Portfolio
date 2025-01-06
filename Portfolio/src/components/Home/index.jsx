@@ -5,6 +5,8 @@ import TypingEffect from "react-typing-effect";
 import Typical from "react-typical";
 import ParticlesComponent from "../partcles";
 import fallbackImage from "../../assets/pic.jpg";
+import NFTProfile1 from "../../assets/NFTProfile1.png";
+import NFTProfile2 from "../../assets/NFTProfile2.jpg";
 import { contactLinks } from "../../constantLink";
 import {
   HomeContainer,
@@ -80,7 +82,11 @@ const Home = ({ state }) => {
     ? fallbackImage
     : `https://gateway.pinata.cloud/ipfs/${cid}`;
   
+  
+  // Randomize the loading image
+  const randomLoadingImage = Math.random() > 0.5 ? NFTProfile1 : NFTProfile2;
 
+  
   return (
     <HomeContainer id="home">
       <ParticlesComponent id="particles" />
@@ -171,11 +177,14 @@ const Home = ({ state }) => {
 
         {/* Image on the Right */}
         <ImageContainer>
-          {loading ? (
-            <p>Loading...</p> // Show loading message if image is still being fetched
+          {loading ? (            
+            <img
+              src={randomLoadingImage} // Use the placeholder image while loading
+              alt="loading placeholder"
+            />                 
           ) : (
             <img
-              src={imageSrc} // Use final image source (either IPFS image or fallback image)
+              src={imageSrc} // Use the final image source (either IPFS image or fallback image)
               alt="profilePhoto"
               onError={handleImageError} // Trigger error handling if image fails
             />
