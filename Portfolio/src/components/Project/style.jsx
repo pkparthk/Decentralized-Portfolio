@@ -105,6 +105,7 @@ export const ProjectDesc = styled.p`
 // Loader container
 export const LoaderContainer = styled.div`
   display: flex;
+  flex-direction: column; /* Stack children vertically */
   justify-content: center;
   align-items: center;
   height: 50rem;

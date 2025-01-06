@@ -90,7 +90,7 @@ const Project = ({ state }) => {
         <ProjectCardContainer>
           {projects.length ? (
             projects.map((project, index) => {
-              let githubLink = `https://github.com/pkparthk/${project.githubLink}`; 
+              let githubLink = `https://github.com/pkparthk/${project.githubLink}`;
               if (parseInt(project.id) === 1) {
                 githubLink = project.githubLink; // Directly use the githubLink from the contract for project id 1
               }
@@ -122,7 +122,11 @@ const Project = ({ state }) => {
               );
             })
           ) : (
-            <LoaderContainer>
+            <LoaderContainer
+              data-aos="fade-up"
+              data-aos-duration="1000"
+              data-aos-delay="200"
+            >
               <Grid
                 type="ThreeDots"
                 color="white"
@@ -130,6 +134,15 @@ const Project = ({ state }) => {
                 width={50}
                 ariaLabel="loading-projects"
               />
+              <h2
+                style={{
+                  marginTop: "30px",
+                  color: "white",
+                  textAlign: "center",
+                }}
+              >
+                To view all projects, please connect to MetaMask and switch to the Sepolia network. 🦊
+              </h2>
             </LoaderContainer>
           )}
         </ProjectCardContainer>
