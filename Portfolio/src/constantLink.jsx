@@ -10,19 +10,19 @@ export const contactLinks = [
     link: "https://twitter.com/parthkothari005",
   },
   {
+    name: "Instagram",
+    url: "https://img.icons8.com/doodle/40/000000/instagram-new--v2.png",
+    link: "https://www.instagram.com/parth_kothari005/",
+  },
+  {
     name: "LinkedIn",
     url: "https://img.icons8.com/doodle/40/000000/linkedin--v2.png",
-    link: "https://www.linkedin.com/in/parth-kothari-1abb5b26a/",
+    link: "https://www.linkedin.com/in/0xparth/",
   },
   {
     name: "Github",
     url: "https://cdn.pixabay.com/photo/2022/01/30/13/33/github-6980894_960_720.png",
     link: "https://github.com/pkparthk/",
-  },
-  {
-    name: "Instagram",
-    url: "https://img.icons8.com/doodle/40/000000/instagram-new--v2.png",
-    link: "https://www.instagram.com/parth_kothari005/",
   },
   {
     name: "Google For Developers",
