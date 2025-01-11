@@ -74,7 +74,8 @@ const Home = ({ state }) => {
 
   // set the bacup as a fallback resume
 
-  const fallbackResume = "https://drive.google.com/file/d/1Hm1cE7Nt7v_o0ynMtMrny3O3SboyreqO/view?usp=sharing";
+  const fallbackResume =
+    "https://drive.google.com/file/d/1Sh9JCgMGUfC3EADkNNNDaF5_bcZqlaAR/view?usp=sharing";
   const resumeSrc = resume ? resume : fallbackResume;
 
 
