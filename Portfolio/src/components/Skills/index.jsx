@@ -166,7 +166,7 @@ const Skills = () => {
           </SkillListItem>
           <SkillName>NodeJS</SkillName>
         </SkillList>
-        <SkillList
+        {/* <SkillList
           data-aos="fade-down"
           data-aos-duration="1000"
           data-aos-delay="400"
@@ -175,7 +175,7 @@ const Skills = () => {
             <SkillImage src="https://i.postimg.cc/GtP33sCh/Express.png" />
           </SkillListItem>
           <SkillName>ExpressJS</SkillName>
-        </SkillList>
+        </SkillList> */}
         <SkillList
           data-aos="fade-down"
           data-aos-duration="1000"
@@ -196,7 +196,7 @@ const Skills = () => {
           </SkillListItem>
           <SkillName>MySQL</SkillName>
         </SkillList>
-        <SkillList
+        {/* <SkillList
           data-aos="fade-down"
           data-aos-duration="1000"
           data-aos-delay="400"
@@ -205,7 +205,7 @@ const Skills = () => {
             <SkillImage src="https://i.postimg.cc/rpcwbjXZ/Git.png" />
           </SkillListItem>
           <SkillName>Git</SkillName>
-        </SkillList>
+        </SkillList> */}
         <SkillList
           data-aos="fade-down"
           data-aos-duration="1000"
@@ -266,7 +266,7 @@ const Skills = () => {
           </SkillListItem>
           <SkillName>Jupyter</SkillName>
         </SkillList>
-        <SkillList
+        {/* <SkillList
           data-aos="fade-down"
           data-aos-duration="1000"
           data-aos-delay="500"
@@ -305,7 +305,7 @@ const Skills = () => {
             <SkillImage src="https://i.postimg.cc/6qGyvj5c/NumPy.png" />
           </SkillListItem>
           <SkillName>NumPy</SkillName>
-        </SkillList>
+        </SkillList> */}
         <SkillList
           data-aos="fade-down"
           data-aos-duration="1000"
@@ -336,8 +336,7 @@ const Skills = () => {
           </SkillListItem>
           <SkillName>TailWind</SkillName>
         </SkillList>
-
-        <SkillList
+        {/* <SkillList
           data-aos="fade-down"
           data-aos-duration="1000"
           data-aos-delay="500"
@@ -346,7 +345,7 @@ const Skills = () => {
             <SkillImage src="https://i.postimg.cc/B6fqzSqT/docker.png" />
           </SkillListItem>
           <SkillName>Docker</SkillName>
-        </SkillList>
+        </SkillList> */}
         <SkillList
           data-aos="fade-down"
           data-aos-duration="1000"
