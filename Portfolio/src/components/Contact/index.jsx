@@ -113,12 +113,13 @@ const Contact = () => {
         </Text>
         <LeftContainer data-aos="fade-up">
           <Text>
-            Ask any questions or want to work together, feel free to contact me ! <br />
+            Ask any questions or want to work together, feel free to contact me
+            ! <br />
             {/* I'll try my best to get back to you ! */}
           </Text>
           {/* Contact Form */}
           <form onSubmit={handleSubmit}>
-          {/* <FormContainer> */}
+            {/* <FormContainer> */}
             <div
               className="my-6"
               data-aos="fade-up"
@@ -205,7 +206,7 @@ const Contact = () => {
             <ResumeIcon />
             <SubText
               as="a"
-              href="https://drive.google.com/file/d/1Hm1cE7Nt7v_o0ynMtMrny3O3SboyreqO/view?usp=sharing"
+              href="https://drive.google.com/file/d/1Sh9JCgMGUfC3EADkNNNDaF5_bcZqlaAR/view?usp=sharing"
               target="_blank"
             >
               Resume
