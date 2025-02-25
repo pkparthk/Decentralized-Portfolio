@@ -206,7 +206,7 @@ const Contact = () => {
             <ResumeIcon />
             <SubText
               as="a"
-              href="https://drive.google.com/file/d/1Sh9JCgMGUfC3EADkNNNDaF5_bcZqlaAR/view?usp=sharing"
+              href="https://drive.google.com/file/d/14He9Id54lCX2ksTsofaKmFeGqAprnS26/view?usp=sharing"
               target="_blank"
             >
               Resume
