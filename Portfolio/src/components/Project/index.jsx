@@ -141,7 +141,8 @@ const Project = ({ state }) => {
                   textAlign: "center",
                 }}
               >
-                To view all projects, please connect to MetaMask and switch to the Sepolia network. 🦊
+                To view all projects, please connect to MetaMask and switch to
+                the Sepolia network. 🦊
               </h2>
             </LoaderContainer>
           )}

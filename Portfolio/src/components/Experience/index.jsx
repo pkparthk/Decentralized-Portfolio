@@ -1,6 +1,6 @@
 import React, { useEffect } from "react";
 import AOS from "aos";
-import "aos/dist/aos.css"; // Importing the AOS styles
+import "aos/dist/aos.css";
 import {
   ExperienceContainer,
   ExperienceTitle,
@@ -8,12 +8,12 @@ import {
   ExperienceHeading,
   ExperienceText,
   ExperienceText2,
-} from "./style"; // Import the styled components
+} from "./style";
 
 const ExperienceSection = () => {
   useEffect(() => {
-    AOS.init(); // Initialize AOS
-    AOS.refresh(); // Refresh AOS when needed (e.g., after state updates)
+    AOS.init();
+    AOS.refresh();
   }, []);
 
   return (
@@ -30,9 +30,27 @@ const ExperienceSection = () => {
         data-aos-duration="1000"
         data-aos-delay="1000"
       >
+        <ExperienceHeading>Software Developer Intern</ExperienceHeading>
+        <ExperienceText>Allstate India</ExperienceText>
+        <ExperienceText2>February 2026 – Present</ExperienceText2>
+      </Experience>
+      <Experience
+        data-aos="zoom-in-left"
+        data-aos-duration="1000"
+        data-aos-delay="1000"
+      >
+        <ExperienceHeading>Software Developer Intern</ExperienceHeading>
+        <ExperienceText>Wise Mango Inc. USA</ExperienceText>
+        <ExperienceText2>May 2025 – January 2025</ExperienceText2>
+      </Experience>
+      <Experience
+        data-aos="zoom-in-left"
+        data-aos-duration="1000"
+        data-aos-delay="1000"
+      >
         <ExperienceHeading>Game Developer</ExperienceHeading>
         <ExperienceText>SandBox by BharatBox</ExperienceText>
-        <ExperienceText2>December 2024 – Present</ExperienceText2>
+        <ExperienceText2>December 2024</ExperienceText2>
       </Experience>
       <Experience
         data-aos="zoom-in-left"
@@ -41,9 +59,9 @@ const ExperienceSection = () => {
       >
         <ExperienceHeading>Graphics Team Lead</ExperienceHeading>
         <ExperienceText>Byte-Xync</ExperienceText>
-        <ExperienceText2>March 2023 – Present</ExperienceText2>
+        <ExperienceText2>March 2023 – September 2025</ExperienceText2>
       </Experience>
-      <Experience
+      {/* <Experience
         data-aos="zoom-in-left"
         data-aos-duration="1000"
         data-aos-delay="1100"
@@ -51,6 +69,14 @@ const ExperienceSection = () => {
         <ExperienceHeading>Graphics Team Member</ExperienceHeading>
         <ExperienceText>OS Code</ExperienceText>
         <ExperienceText2>June 2023 – Present</ExperienceText2>
+      </Experience> */}
+      <Experience
+        data-aos="zoom-in-left"
+        data-aos-duration="1000"
+        data-aos-delay="1400"
+      >
+        <ExperienceHeading>Arcade Google Cloud Skill Boost</ExperienceHeading>
+        <ExperienceText2>March 2022 – December 2024</ExperienceText2>
       </Experience>
       <Experience
         data-aos="zoom-in-left"
@@ -65,11 +91,11 @@ const ExperienceSection = () => {
         data-aos-duration="1000"
         data-aos-delay="1500"
       >
-        <ExperienceHeading>Participant</ExperienceHeading>
-        <ExperienceText>Aventus Hackathon</ExperienceText>
+        <ExperienceHeading>Aventus Hackathon</ExperienceHeading>
+        <ExperienceText>Track Winner</ExperienceText>
         <ExperienceText2>August 2023</ExperienceText2>
       </Experience>
-      <Experience
+      {/* <Experience
         data-aos="zoom-in-left"
         data-aos-duration="1000"
         data-aos-delay="1300"
@@ -77,16 +103,8 @@ const ExperienceSection = () => {
         <ExperienceHeading>Campus Ambassador</ExperienceHeading>
         <ExperienceText>Team Let’s Upgrade</ExperienceText>
         <ExperienceText2>Jan 2023 – April 2024</ExperienceText2>
-      </Experience>
-      <Experience
-        data-aos="zoom-in-left"
-        data-aos-duration="1000"
-        data-aos-delay="1400"
-      >
-        <ExperienceHeading>Arcade Google Cloud Skill Boost</ExperienceHeading>
-        <ExperienceText2>March 2022 – December 2024</ExperienceText2>
-      </Experience>
-      <Experience
+      </Experience> */}
+      {/* <Experience
         data-aos="zoom-in-left"
         data-aos-duration="1000"
         data-aos-delay="1500"
@@ -103,7 +121,7 @@ const ExperienceSection = () => {
         <ExperienceHeading>Participant</ExperienceHeading>
         <ExperienceText>Polygon Connect</ExperienceText>
         <ExperienceText2>December 2023</ExperienceText2>
-      </Experience>
+      </Experience> */}
     </ExperienceContainer>
   );
 };

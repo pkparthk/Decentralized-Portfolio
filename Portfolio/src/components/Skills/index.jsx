@@ -32,6 +32,16 @@ const Skills = () => {
           data-aos-delay="300"
         >
           <SkillListItem>
+            <SkillImage src="https://i.postimg.cc/RZsFLsJb/java-logo.png" />
+          </SkillListItem>
+          <SkillName>Java</SkillName>
+        </SkillList>
+        <SkillList
+          data-aos="fade-down"
+          data-aos-duration="1000"
+          data-aos-delay="300"
+        >
+          <SkillListItem>
             <SkillImage src="https://i.postimg.cc/tgsCK0QC/python.png" />
           </SkillListItem>
           <SkillName>Python</SkillName>
@@ -96,7 +106,7 @@ const Skills = () => {
           </SkillListItem>
           <SkillName>Css3</SkillName>
         </SkillList>
-        <SkillList
+        {/* <SkillList
           data-aos="fade-down"
           data-aos-duration="1000"
           data-aos-delay="300"
@@ -105,7 +115,7 @@ const Skills = () => {
             <SkillImage src="https://i.postimg.cc/c44z0pCf/java.png" />
           </SkillListItem>
           <SkillName>Java</SkillName>
-        </SkillList>
+        </SkillList> */}
         <SkillList
           data-aos="fade-down"
           data-aos-duration="1000"
@@ -234,7 +244,7 @@ const Skills = () => {
           <SkillListItem>
             <SkillImage src="https://i.postimg.cc/8zwK3tNt/bitcoin.png" />
           </SkillListItem>
-          <SkillName>BlockChain Devloper</SkillName>
+          <SkillName>BlockChain</SkillName>
         </SkillList>
         <SkillList
           data-aos="fade-down"
@@ -246,7 +256,7 @@ const Skills = () => {
           </SkillListItem>
           <SkillName>Ethereum</SkillName>
         </SkillList>
-        <SkillList
+        {/* <SkillList
           data-aos="fade-down"
           data-aos-duration="1000"
           data-aos-delay="500"
@@ -255,8 +265,8 @@ const Skills = () => {
             <SkillImage src="https://i.postimg.cc/gc4MSgsj/anaconda.png" />
           </SkillListItem>
           <SkillName>Anaconda Navigator</SkillName>
-        </SkillList>
-        <SkillList
+        </SkillList> */}
+        {/* <SkillList
           data-aos="fade-down"
           data-aos-duration="1000"
           data-aos-delay="500"
@@ -265,7 +275,7 @@ const Skills = () => {
             <SkillImage src="https://i.postimg.cc/htQpGcBQ/jupyter.png" />
           </SkillListItem>
           <SkillName>Jupyter</SkillName>
-        </SkillList>
+        </SkillList> */}
         {/* <SkillList
           data-aos="fade-down"
           data-aos-duration="1000"
@@ -346,7 +356,7 @@ const Skills = () => {
           </SkillListItem>
           <SkillName>Docker</SkillName>
         </SkillList> */}
-        <SkillList
+        {/* <SkillList
           data-aos="fade-down"
           data-aos-duration="1000"
           data-aos-delay="500"
@@ -365,7 +375,7 @@ const Skills = () => {
             <SkillImage src="https://i.postimg.cc/3xZCNRqR/Kali-Linux.png" />
           </SkillListItem>
           <SkillName>Kali Linux</SkillName>
-        </SkillList>
+        </SkillList> */}
         <SkillList
           data-aos="fade-down"
           data-aos-duration="1000"

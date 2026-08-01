@@ -78,16 +78,13 @@ const Home = ({ state }) => {
     "https://drive.google.com/file/d/14He9Id54lCX2ksTsofaKmFeGqAprnS26/view?usp=sharing";
   const resumeSrc = resume ? resume : fallbackResume;
 
-
   const imageSrc = imageError
     ? fallbackImage
     : `https://gateway.pinata.cloud/ipfs/${cid}`;
-  
-  
+
   // Randomize the loading image
   const randomLoadingImage = Math.random() > 0.5 ? NFTProfile1 : NFTProfile2;
 
-  
   return (
     <HomeContainer id="home">
       <ParticlesComponent id="particles" />
@@ -178,11 +175,11 @@ const Home = ({ state }) => {
 
         {/* Image on the Right */}
         <ImageContainer>
-          {loading ? (            
+          {loading ? (
             <img
               src={randomLoadingImage} // Use the placeholder image while loading
               alt="loading placeholder"
-            />                 
+            />
           ) : (
             <img
               src={imageSrc} // Use the final image source (either IPFS image or fallback image)

@@ -608,7 +608,7 @@ const ParticlesComponent = (props) => {
         },
       },
     }),
-    []
+    [],
   );
 
   return <Particles id={props.id} options={option1} />;
